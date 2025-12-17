@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "836059393525",
+    "project_id": "abstracker-663d8",
+    "storage_bucket": "abstracker-663d8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836059393525:android:414ac208c35b4ded8a44bc",
+        "android_client_info": {
+          "package_name": "com.example.abs_tracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6_fmxa8jsEDYmBqj6K-5DyCKNAOUbDRQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

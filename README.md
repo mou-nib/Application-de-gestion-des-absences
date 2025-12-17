@@ -1,16 +1,41 @@
-# abs_tracker
+# **AbsTracker - Système de Gestion des Absences**
 
-A new Flutter project.
+## **Présentation**
+Application mobile Flutter complète pour la gestion numérique des absences dans les établissements d'enseignement supérieur. Trois interfaces distinctes pour **administrateurs**, **enseignants** et **étudiants**.
 
-## Getting Started
+**Statut :Production Ready**
 
-This project is a starting point for a Flutter application.
+## **Fonctionnalités**
 
-A few resources to get you started if this is your first Flutter project:
+### **Administrateur**
+- Dashboard avec statistiques temps réel
+- Gestion étudiants/enseignants (CRUD complet)
+- Gestion filières, groupes, cours
+- Planification emplois du temps
+- Traitement des justifications d'absence
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### **Enseignant**
+- Marquage d'absences en temps réel
+- Consultation des cours assignés
+- Emploi du temps personnel
+- Statistiques par cours/groupe
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### **Étudiant**
+- Historique des absences avec filtres
+- Justification en ligne des absences
+- Consultation emploi du temps
+- Statistiques personnelles de présence
+
+## **Technologies**
+- **Frontend** : Flutter 3.19+, Dart 3.3+
+- **Backend** : Firebase (Auth, Firestore)
+- **Architecture** : BLoC Pattern, Repository Pattern
+- **UI** : Material Design 3
+
+## **Installation**
+
+### **Prérequis**
+```bash
+Flutter SDK 3.19+
+Android Studio
+Compte Firebase
